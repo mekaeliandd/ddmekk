@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109712382-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109712382-2');
+</script>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>dm emails</title>
+
+<!-- Bootstrap -->
+<link href="stylesheet.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+.row:before {
+    display: inline-block;
+}
+.row:after {
+    display: inline-block;
+}
+</style>
+
+<script>
+$('a[href*="#"]')
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+	  </script>
+		<script>
+	$(document).on("scroll", function() {
+
+	if($(document).scrollTop()>100) {
+		$("header").removeClass("large").addClass("small");
+	} else {
+		$("header").removeClass("small").addClass("large");
+	}
+
+});
+	</script>
+<style>
+.imghover:hover {
+    background-color: #fff;
+    opacity: .5;
+    transition: 0.3s;
+}
+</style>
+
+</head>
+<body>
+<div id="navbar">
+	<header class="large">
+  <div class="container">
+    <nav>
+<a href="http://ddmekk.com/"><img class="logo img-fluid" src="/assets/ddmekk-logo-white.png"></a>
+<ul>
+  <li><a href="http://ddmekk.com/#about">ABOUT</a></li>
+  <li><a href="http://ddmekk.com/#experience">EXPERIENCE</a></li>
+  <li><a href="http://ddmekk.com/#portfolio">PORTFOLIO</a></li>
+</ul>
+    </nav>
+  </div>
+</header>
+</div>
+<div id="wrapper">
+  <div class="jumbotron blue">
+    <div class="container text-left pt250">
+      <h1 class="title">EMAILS</h1>
+      <a href="#about"><img src="/assets/downarrow_icon.png" class="largehover pt20 mob-centered" width="40px;"></a> <img class="abstract" src="/assets/abstract-hero-white.svg"> </div>
+  </div>
+  <div class="main">
+    <div class="container-fluid bg-white w-900" id="about">
+      <div id="brandrefresh">
+        <h2 class="small darkgrey">I have over 4 years experience designing, coding and testing emails. Below you can see some I created while working at American Hotel, and responsive emails – All which are regularly tested through Litmus to see how they are rendered between different email clients.</h2>
+      </div>
+    </div>
+    <div class="container-fluid bg-light">
+    <div class="w-1300">
+      <p class="subheader bold left">Responsive email</p>
+     <h2 class="small darkgrey text-left pb-3">Emails that are mobile friendly and tested through Litmus.</h2>
+      <div class="row text-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="bg-white-box fixedheight"><a href="/assets/ResponsiveEmail_2Col_2.html"> <img src="/assets/hit-email-icon.png" class="img-fluid pt-4" width="290px;"></a>
+            <p class="title bold pt-4">Hit! Balm </p>
+            <h2 class="small text-center"> <a class="sublinks" href="/assets/ResponsiveEmail_2Col_2.html" target="_blank">VIEW EMAIL</a></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-light">
+		<div class="w-1300">
+      <p class="subheader bold left">American Hotel</p>
+		 <h2 class="small darkgrey text-left pb-3">As we supply many known brands to our customers, suppliers come to us to advertise on their behalf.</h2>
+      <div class="row text-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="bg-white-box fixedheight"><a href="/assets/keurig-email-compiled.html"> <img src="/assets/keurig-email-icon.png" class="img-fluid pt-4" width="290px;"></a>
+            <p class="title bold pt-4"> Keurig</p>
+            <h2 class="small text-center"> <a class="sublinks" href="/assets/keurig-email-compiled.html" target="_blank">VIEW EMAIL</a></h2>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="bg-white-box fixedheight"><a href="/assets/colgate-email.html"><img src="/assets/colgate-email-icon.png" class="img-fluid pt-4" width="290px;"></a>
+            <p class="title bold pt-4">Colgate</p>
+            <h2 class="small text-center"> <a class="sublinks" href="/assets/colgate-email.html" target="_blank">VIEW EMAIL</a></h2>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="bg-white-box fixedheight"><a href="/assets/hoover-email.html"> <img src="/assets/oreck-email-icon.png" class="img-fluid pt-4" width="290px;"> </a>
+            <p class="title bold pt-4">Oreck</p>
+            <h2 class="small text-center"> <a class="sublinks" href="/assets/hoover-email.html" target="_blank">VIEW EMAIL</a></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-light">
+		<div class="w-1300">
+      <p class="subheader bold left pb-4">aBundle Welcome Email Campaign</p>
+      <div class="row text-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="bg-white-box fixedheight"><a href="http://ddmekk.com/assets/abundle_email01.html"> <img src="/assets/abundle-1-icon.png" class="img-fluid pt-4" width="290px;"></a>
+            <h2 class="small text-center"> <a class="sublinks" href="http://ddmekk.com/assets/abundle_email01.html" target="_blank">VIEW EMAIL</a></h2>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="bg-white-box fixedheight"> <a href="http://ddmekk.com/assets/abundle_email02.html"><img src="/assets/abundle-2-icon.png" class="img-fluid pt-4" width="290px;"></a>
+            <h2 class="small text-center"> <a class="sublinks" href="http://ddmekk.com/assets/abundle_email02.html" target="_blank">VIEW EMAIL</a></h2>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+          <div class="bg-white-box fixedheight"><a href="http://ddmekk.com/assets/abundle_email03.html"> <img src="/assets/abundle-3-icon.png" class="img-fluid pt-4" width="290px;"> </a>
+            <h2 class="small text-center"> <a class="sublinks" href="http://ddmekk.com/assets/abundle_email03.html" target="_blank">VIEW EMAIL</a></h2>
+          </div>
+        </div>
+      </div>
+    </div></div>
+</div>
+  </div>
+</div>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.2.1.js"></script>
+</html>

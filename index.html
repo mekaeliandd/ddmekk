@@ -1,0 +1,265 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109712382-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109712382-2');
+</script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>dm home</title>
+<link href="stylesheet.css" rel="stylesheet" type="text/css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	      <!-- Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	  	  <style>
+	  .row:before{
+	display: inline-block;
+}
+		  .row:after{
+			  display: inline-block;
+		  }
+	  </style>
+<script>
+$('a[href*="#"]')
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+	  </script>
+
+	  <script>
+	  $(".jumbotron").css({ height: $(window).height() + "px" });
+
+$(window).on("resize", function() {
+  $(".jumbotron").css({ height: $(window).height() + "px" });
+});
+	  </script>
+
+	   <!--Nav Bar Resizing -->
+	<script>
+	$(document).on("scroll", function() {
+
+	if($(document).scrollTop()>100) {
+		$("header").removeClass("large").addClass("small");
+	} else {
+		$("header").removeClass("small").addClass("large");
+	}
+
+});
+	</script>
+
+  </head>
+<body>
+
+<div id="navbar">
+	<header class="large">
+  <div class="container">
+    <nav>
+    <!--  <a href="http://ddmekk.com/"><img class="logo img-fluid" src="/assets/dm-logo.png"></a>-->
+      <ul>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#experience">EXPERIENCE</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+</div>
+ <div id="wrapper">
+	 	<!-- ==============================================
+		HERO
+		=============================================== -->
+<div class="jumbotron green">
+<div class="container text-left pt250">
+  <h1 class="title">DZIADZAN<br><span style="font-weight: 300;"> MEKAELIAN</span></h1>
+	<a href="#about"><img src="/assets/downarrow_icon.png" class="largehover pt20 mob-centered" width="40px;"></a>
+	<img class="abstract" src="/assets/abstract-hero-white.svg">
+  </div>
+</div>
+	 	<!-- ==============================================
+		INTRO
+		=============================================== -->
+  <div class="main">
+    <div class="container-fluid bg-white" id="about">
+      <div class="w-1000">
+		  <div class="row">
+		  <div class="col-md-8">
+			  <p class="largetitle bold">
+			  Front End Web Developer &amp; Designer
+			  </p>
+
+			  <h2 class="small left darkgrey">
+			 Hi! I'm Dziadzan Mekaelian. DD might be a little easier though. I am a Front End Web Developer who loves incorporating design with development, as I enjoy each and every aspect of the design world. I graduated from Lake Forest College with a degree in Digital Media Design – if you want to learn more about that, click the link to see my resume! Hope you enjoy my site.
+		  </h2>
+
+			  <h2 class="small pt10">
+	<a class="sublinks" href="/assets/Dziadzan_Mekaelian_Resume.pdf" target="_blank">VIEW RESUME</a></h2> </div>
+			  <div class="col-md-4">
+			  <img src="/assets/notebook.png" class="img-fluid img-hide">
+      </div>
+		  </div>
+      </div>
+    </div>
+  </div>
+	<!-- ==============================================
+		EXPERIENCE
+		=============================================== -->
+	 <div class="content">
+     <script>
+ AOS.init();
+ </script>
+ <div data-aos="fade-up"
+  data-aos-duration="3000"><img src="/assets/chicago-strip.jpg" class="img-fluid"></div>
+	 </div>
+	 <div class="bg-light">
+	 <div class="main w-1000" id="experience">
+	 <div class="row">
+		 <div class="col-md-3">
+		<p class="largetitle bold left">Responsive Design</p>
+
+		 </div>
+		  <div class="col-md-6 margintop">
+			  <div id="phone_container">
+<img src="/assets/video-gif.gif" width="223">
+
+		 </div>
+		 </div>
+		  <div class="col-md-3">
+		 		<h2 class="small pb20 left darkgrey">In school and in my current job, I have created responsive websites and landing pages typically with a Bootstrap Framework. </h2>
+
+		 </div>
+
+		 </div>
+	 </div>
+
+	 </div>
+
+	   <div class="container-fluid bg-white">
+      <div class="w-1000">
+		  <div class="row">
+			  <div class="col-md-4 text-center">
+			  <img src="/assets/designdev-icon.png" class="img-fluid" width="250px;">
+			  </div>
+		  <div class="col-md-8 pt45">
+			  <p class="largetitle bold">
+			 Design &amp; Development
+			  </p>
+			  <h2 class="small left darkgrey">
+		As a Web Developer, I think it's very important to have a good balance of design and development when building digital pieces. I frequently build the layout through Photoshop while taking functionality into consideration before I start coding it–This gives me a better idea on how it will look once it is live!
+			<br>
+		  </h2> </div>
+
+		  </div>
+      </div>
+    </div>
+    <!-- ==============================================
+    WORK EXAMPLES
+    =============================================== -->
+
+    	 <!--  <div class="container-fluid bg-white">
+          <div class="w-1600">
+    		  <div class="row">
+    			  <div class="col-lg-6 col-md-12 text-center bg-white">
+              <p class="largetitle bold">
+        Design work
+              </p>
+              <a href="https://www.aprhire.com/">
+    			  <img src="/assets/apr-homepage" class="img-fluid"></a>
+            <h2 class="small left darkgrey">
+  A Recruitment Agency based in Montreal, CA. One accent color, one modern look.
+          </h2>
+          <h2 class="small pt10">
+    <a class="sublinks" href="#" target="_blank">SEE MORE</a></h2>
+    			  </div>
+    		  <div class="col-lg-6 col-md-12 bg-white text-center">
+            <p class="largetitle bold">
+      Development work
+            </p>
+            	 <img src="/assets/apr-homepage" class="img-fluid">
+    			  <h2 class="small left darkgrey">
+    	Landing page developed for s
+    		  </h2>
+          <h2 class="small pt10">
+    <a class="sublinks" href="#" target="_blank">SEE MORE</a></h2>
+        </div>
+
+    		  </div>
+          </div>
+        </div>-->
+		<!-- ==============================================
+		PORTFOLIO
+		=============================================== -->
+<div class="container-fluid bg-light" id="portfolio">
+	<div class="w-1300">
+<div class="row text-center px-5">
+ <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+
+			<div class="bg-white-box fixedheight">
+		<a href="http://ddmekk.com/landing-pages.html"><img src="/assets/landingpage_icon.png" class="img-fluid" width="260px;"></a>
+	<p class="title bold pt20">
+	<a class="sublinks" href="http://ddmekk.com/landing-pages.html">Landing Pages</a></p>
+
+				</div></div>
+		 	 <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+	 <div class="bg-white-box fixedheight">
+		<a href="http://ddmekk.com/emails.html"><img src="/assets/email_icon.png" class="img-fluid"></a>
+<p class="title bold pt-4">
+	<a class="sublinks" href="http://ddmekk.com/emails.html">Email</a>
+		 </p>
+
+	</div></div>
+		 <div class="col-lg-4 col-md-6 col-sm-12 pb-3">
+	<div class="bg-white-box fixedheight">
+			<a href="http://ddmekk.com/freelance.html"> <img src="/assets/freelanceicon.png" class="img-fluid"></a><p class="title bold pt-4"><a class="sublinks" href="http://ddmekk.com/freelance.html">Freelance</a></p>
+
+	</div></div>
+		 </div>
+
+	 </div>
+
+</div>
+
+	</div>
+</body>
+</html>
