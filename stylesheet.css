@@ -27,53 +27,32 @@ section {
   right: 18%;
 }
 /*Body Styles*/
-.w-1150 {
+.w-1150, .w-790, .w-1000, .w-1300, .w-1500, .w-870, .w-900{
   display: block;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.w-1150 {
   max-width: 1150px;
 }
 .w-790 {
-  display: block;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
   max-width: 790px;
 }
 .w-1000 {
-  display: block;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
   max-width: 1000px;
 }
 .w-1300 {
-  display: block;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
   max-width: 1300px;
 }
 .w-1600 {
-  display: block;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
   max-width: 1600px;
 }
 .w-870 {
-  display: block;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
   max-width: 870px;
 }
 .w-900 {
-  display: block;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
   max-width: 900px;
 }
 .w-425 {
@@ -89,7 +68,7 @@ section {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.col-md-6.margintop {
+.component-skyline .margintop {
   margin-top: -290px;
 }
 .bg-white-box.fixedheight {
@@ -134,7 +113,7 @@ opacity: 0.2;
 }
 /*iPhone*/
 #phone_container {
-background: url('/assets/iphone.svg') no-repeat top left transparent;
+background: url('/assets/iphone.png') no-repeat top left transparent;
 width: 258px;
 height: 526px;
 position: relative;
@@ -143,7 +122,7 @@ display: block;
 }
 #phone_container img {
 position: absolute;
-top: 65px;
+top: 62px;
 left: 18px;
 }
 
@@ -802,7 +781,7 @@ a.hoverlink:hover, a.hoverlink:focus {
   .w-790 {
     max-width: 635px;
   }
-.col-md-6.margintop {
+.component-skyline .margintop {
     margin-top: 0px;
   }
 .col-md-8.pt45{
